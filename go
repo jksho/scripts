@@ -7,4 +7,4 @@
 #~/scripts/runbook5 2>&1 | tee -a ~/scripts/log/runbook5.log
 #~/scripts/runbook6 2>&1 | tee -a ~/scripts/log/runbook6.log
 #~/scripts/runbook7 2>&1 | tee -a ~/scripts/log/runbook7.log
-~/scripts/runbook8 2>&1 | tee -a ~/scripts/log/runbook8.log
+#~/scripts/runbook8 2>&1 | tee -a ~/scripts/log/runbook8.log
