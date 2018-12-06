@@ -1,0 +1,19 @@
+#Install IntelliJ IDEA Community 2018.2.5 (Remote Machine)
+sudo snap install intellij-idea-community --classic
+
+# To run the IDE, this must be done in NoMachine
+# During the first run install the Scala plugin
+#$ intellij-idea-community
+
+#Install htop
+sudo apt-get install htop -y
+
+#Install Atom
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt update -y; sudo apt install atom -y
+
+#Install tmux
+sudo apt-get install tmux -y
+
+#Install Virtual Box Guest Utilities
+sudo apt install virtualbox-guest-utils

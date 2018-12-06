@@ -1,0 +1,9 @@
+# create docker-share directories
+
+sudo mkdir -p /mnt/docker-share/git/repo/ise-L1/notebook
+sudo mkdir -p /mnt/docker-share/git/repo/ise-L3/notebook
+sudo mkdir -p /mnt/docker-share/git/repo/owl-L1/notebook
+sudo mkdir -p /mnt/docker-share/git/repo/owl-L3/notebook
+sudo mkdir -p /mnt/docker-share/service/beakerx/project
+sudo chown ubuntu:ubuntu -R /mnt/docker-share/git/
+sudo chown ubuntu:ubuntu -R /mnt/docker-share/service/

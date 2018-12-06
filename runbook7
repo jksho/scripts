@@ -1,0 +1,4 @@
+# Install NoMachine binary
+
+wget https://download.nomachine.com/download/6.3/Linux/nomachine_6.3.6_1_amd64.deb
+sudo dpkg -i nomachine_6.3.6_1_amd64.deb

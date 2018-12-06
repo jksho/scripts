@@ -1,0 +1,7 @@
+
+#docker pull beakerx/beakerx
+docker stop beakerx
+docker rm beakerx
+docker run -p 8888:8888 --name beakerx -v /mnt/docker-share:/home/beakerx/docker-share beakerx/beakerx 
+
+#docker exec -it --user root beakerx /bin/bash

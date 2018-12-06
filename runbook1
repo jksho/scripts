@@ -1,0 +1,15 @@
+#Install Chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -    
+echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
+sudo apt-get update -y
+sudo apt-get install google-chrome-stable -y
+
+#Install Ubuntu Desktop
+sudo apt-get update
+sudo apt-get install ubuntu-desktop
+
+#Install NoMachine
+wget https://download.nomachine.com/download/6.3/Linux/nomachine_6.3.6_1_amd64.deb
+sudo dpkg -i nomachine_6.3.6_1_amd64.deb
+mkdir -p ~/.nx/config
+#cp ~/.ssh/authorized_keys ~/.nx/config/authorized.crt
