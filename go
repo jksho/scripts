@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 #~/scripts/runbook1 2>&1 | tee -a ~/scripts/log/runbook1.log
 #~/scripts/runbook2 2>&1 | tee -a ~/scripts/log/runbook2.log
